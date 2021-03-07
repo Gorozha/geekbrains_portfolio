@@ -69,6 +69,11 @@ body {
   background-position: center;
 }
 
+.top__svg {
+  width: 42px;
+  height: 22px;
+}
+
 .top__arrow {
   margin-top: 40px;
 }
@@ -213,4 +218,68 @@ body {
   text-align: center;
   color: #c7c8c8;
   padding-top: 22px;
+}
+
+@media (min-width: 768px) {
+  .top {
+    padding-top: 54px;
+    padding-bottom: 80px;
+  }
+
+  .top__img {
+    margin-top: 159px;
+    height: 514px;
+    margin-bottom: 124px;
+  }
+
+  .header__logo {
+    width: 240px;
+  }
+
+  .heading {
+    font-size: 40px;
+    line-height: 47px;
+    margin-bottom: 30px;
+  }
+
+  .text {
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .text_margin {
+    margin-left: 77px;
+    margin-right: 77px;
+  }
+
+  .top__text-margin {
+    margin-left: 154px;
+    margin-right: 155px;
+  }
+
+  .top__arrow {
+    margin-top: 76px;
+  }
+
+  .top__svg {
+    width: 61px;
+    height: 33px;
+  }
+
+  .bluetooth {
+    height: 990px;
+    padding-top: 80px;
+    padding-bottom: 3px;
+  }
+
+  .bluetooth__heading {
+    font-size: 150px;
+    line-height: 176px;
+  }
+
+  .bluetooth__img {
+    height: 597px;
+    margin-left: 39px;
+    margin-right: 19px;
+  }
 }
